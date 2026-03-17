@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmSalesforceRESTProvider">12.0.0.0.16</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">17-03-2026 07:34:41 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-03-17T07:34:44.738232215Z</value>
+  <value name="lastUpdated">2026-03-17T07:35:17.917056864Z</value>
   <value name="wmProjectId">flf0669839b2094d2fb95dc18935484ebd</value>
   <value name="creator">Karthik V</value>
 </Values>
